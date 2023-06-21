@@ -3,14 +3,14 @@ import React from "react"
 
 export default function Showcase() {
   return (
-    <div className=" py-10">
+    <div className=" py-10 bg-gray-900">
       <div className="max-w-6xl flex items-center mx-auto">
         <div className="w-1/2 text-left p-6">
           <div className="max-w-sm">
             <div className="font-semibold text-4xl text-yellow-600">
               Stranger Mushwana
             </div>
-            <div className="font-semibold text-2xl my-2 text-gray-700">
+            <div className="font-semibold text-2xl my-2 text-white">
               Software Developer
             </div>
             <div className="flex space-x-1 items-center my-6">
@@ -22,7 +22,7 @@ export default function Showcase() {
                 Open to freelance projects
               </span>
             </div>
-            <div className="text-sm text-gray-600">
+            <div className="text-sm text-white">
               Experienced Developer, skilled in creating dynamic web
               applications. Strong team player and an eager learner with a
               passion for technology. I enjoy problem-solving and constantly
@@ -37,16 +37,17 @@ export default function Showcase() {
               </a>
               <a
                 href="#"
-                className="px-8 py-3 border hover:bg-gray-200 text-gray-900 rounded-md font-semibold text-xs"
+                className="px-8 py-3 border border-red-300 text-white rounded-md font-semibold text-xs"
               >
                 Download Resume
               </a>
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-left mt-10 w-1/2">
-          <div className="relative px-6 bg-black w-full pt-16 rounded-md overflow-hidden mb-20">
+        <div className="flex items-center justify-right mt-8 w-1/2 relative">
+          <div className=" px-6 w-full pt-10 rounded-md overflow-hidden mb-20 z-10">
             <Image
+              className="rounded-full bg-red-100 overflow-hidden"
               src="/images/me.png"
               alt="Image of myself"
               width={300}
