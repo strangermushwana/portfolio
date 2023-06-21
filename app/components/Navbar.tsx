@@ -3,7 +3,7 @@ import React from "react"
 export default function Navbar() {
   return (
     <div className="top-1 bg-white p-3 shadow-sm ">
-      <div className="flex justify-between items-center max-w-5xl text-gray-800 p-3 mx-auto">
+      <div className="flex justify-between items-center max-w-6xl text-gray-800 p-3 mx-auto">
         <h1 className="text-lg font-bold cursor-pointer hover:text-gray-900">
           stranger.mushwana
         </h1>
