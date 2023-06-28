@@ -23,7 +23,7 @@ export default function WorkHistory({ history }: IEduction) {
     "bg-purple-800",
   ]
   return (
-    <div className="py-6 bg-pl-100 mx-auto max-w-6xl">
+    <div className="py-6 bg-pl-100 mx-auto h-max">
       <div className="flex flex-col items-center space-x-10">
         <div className="w-full">
           <div className="flex items-center shadow-md py-10 px-5 w-full">
@@ -35,20 +35,12 @@ export default function WorkHistory({ history }: IEduction) {
               <div className="text-md font-thin my-1 uppercase">
                 {history.term}
               </div>
-              <div className="font-sm my-1 max-w-4xl">
+              <div className="text-xs my-1">
                 {history.description}
               </div>
-              <div className="grid gap-y-3 gap-x-2 grid-cols-4 w-fit py-8 font-mono">
+              <div className="grid gap-y-3 grid-cols-3 w-fit py-8 font-mono">
                 {history.languages.map((language, index) => (
-                  <div
-                    key={language}
-                    className={
-                      colors[index] +
-                      " text-xs w-fit rounded-full font-bold text-center px-6 py-2 text-white"
-                    }
-                  >
-                    {language}
-                  </div>
+                  <span  key={language} className={colors[index] +" text-xs mr-2 text-white font-bold px-2.5 py-0.5 w-fit rounded-full" }>{language}</span>
                 ))}
               </div>
             </div>

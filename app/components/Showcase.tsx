@@ -86,9 +86,9 @@ export default function Showcase() {
             <div className="absolute overflow-hidden z-100 top-10 left-96">
               <Image
                 alt="Nodejs Logo"
-                src="/images/node.png"
-                width={100}
-                height={100}
+                src="/images/nodejs.png"
+                width={80}
+                height={80}
               />
             </div>
             <div className="absolute overflow-hidden z-100 top-10 left-0">
@@ -110,8 +110,8 @@ export default function Showcase() {
             <div className="absolute bg-white overflow-hidden z-100 top-32 left-64">
               <Image
                 alt="Angular Logo"
-                src="/images/anglar.png"
-                width={100}
+                src="/images/angular.png"
+                width={150}
                 height={100}
               />
             </div>
@@ -123,7 +123,7 @@ export default function Showcase() {
                 height={100}
               />
             </div>
-            <div className="absolute overflow-hidden z-100 top-[10rem] right-32">
+            <div className="absolute overflow-hidden z-100 top-[13rem] right-[10rem]">
               <Image
                 alt="React Logo"
                 src="/images/postgre.png"
